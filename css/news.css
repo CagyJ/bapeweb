@@ -65,7 +65,7 @@ footer{
     left: -1px;
 }
 #footer-contact-details{
-    width: 163ox;
+    
     height: 114px;
     padding-left: 40px;
     padding-right: 40px;
@@ -112,7 +112,4 @@ footer .social-links li.last{
     clear: both;
     color: gray;
     font-size: 0.8em;
-}
-.article{
-    position: center;
 }

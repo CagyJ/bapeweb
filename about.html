@@ -9,18 +9,17 @@
 		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<link rel="stylesheet" href="css/about.css">
-		<script type="text/javascript">
+		<script>
 			function submitF(btn){
 				var btnId=btn.id;
 				var f=document.forms[0];
 				f.action='success.html';
 				f.submit();
-			}
+            };
 		</script>
 	</head>
 	<body>
-	
-		<div class="gallery-section">
+	<div class="gallery-section">
 			<div class="inner-width">
 				<h1>ABOUT</h1>
                 <div class="border"></div>
@@ -44,17 +43,17 @@
 				<div class="gallery">
 					<div class="retweet">
                         <p>--------------------------------------------------------------------------------------------</p>
-                        
+   
                         <div class="retweet-textarea">
-                            <form action="" method="post">
-                                <table boeder = 0 width= 500>
-                                <th colspan=2>If you have some problem, please write down or send me a email</th>
+                            <form method="post">
+                                <p>If you have some problem, please write it down or send me a email</p>
+                                <table >    
                                 <tr>
-                                    <td valign = "right">Name：</td>
+                                    <td >Name：</td>
                                     <td><input type = text name = name size = 15></td>
                                 </tr>
 								<tr>
-									<td valign = "right">Sex: </td>
+									<td >Sex: </td>
 									<td>
 									<select name="my_html_select_box">
 										<option>Male</option>
@@ -63,26 +62,28 @@
 									</td>
 								</tr>
                                 <tr>
-                                    <td valign = "right">E-mail:</td>
+                                    <td >E-mail:</td>
                                     <td><input type = text size = 35 name = e-mail></td>
                                 </tr>
                                 <tr>
-                                    <td valign = "top" valign = "right">Comments:</td>
+                                    <td>Comments:</td>
                                     <td><textarea name = liuyan rows = 5 cols = 35></textarea></td>
                                 </tr>
+                                
 								<tr>
-									<td align="right">
+									<td>
 									<p>
 										<input type="radio" name="agree" /><br />
 									</p>
 									</td>
 									<td>I agree the private police.</td> 
-								</tr>
+                                </tr>
                                 <tr>
-                                    <td colspan = 2 align = "center">
+                                    <td >
                                     <input type = "button" value = "Submit" id="myBtn" onclick="submitF(this);"/>&nbsp;
                                     <input type = "reset" value = "Reset">
                                     </td>
+                                    <td></td>
                                 </tr>
                                 </table>
                                 </form>
@@ -90,7 +91,7 @@
                     </div>
 				</div>
             </div>
-            <footer id="footer" role="contentinfo">
+            <footer id="footer">
                 <div id="footer-contact-details">
                     <p>
                         Just a Bape lover.
@@ -116,7 +117,6 @@
                 </ul>
                 <p id="footer-legals">© 2019 CagyJ</p>
             </footer>
-		</div>
-		
+		</div>		
 	</body>
 </html>

@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     font-family: 'montserrat', sans-serif;
@@ -32,19 +32,7 @@
     flex-wrap: wrap-reverse;
     justify-content: center;
 }
-.gallery-section .image {
-    flex: 25%;
-    overflow: hidden;
-    cursor: pointer;
-}
-.gallery-section .image img {
-    width: 100%;
-    height: 100%;
-    transition: 0.4s;
-}
-.gallery-section .image:hover img {
-    transform: scale(1.4) rotate(15deg);
-}
+
 @media screen and (max-width: 960px) {
     .gallery-section .image {
         flex: 33.33%;
@@ -66,7 +54,7 @@ footer{
     left: -1px;
 }
 #footer-contact-details{
-    width: 163ox;
+   
     height: 114px;
     padding-left: 40px;
     padding-right: 40px;
@@ -170,3 +158,5 @@ p.lead{
 .tag:before{
     content: '#'
 }
+
+
